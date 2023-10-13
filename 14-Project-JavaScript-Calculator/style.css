@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+body,html {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  background-image: url(./assets/bbblurry.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1em;
+  border: 0.1em solid black;
+  border-radius: 1em;
+  background-color: rgb(29, 28, 27);
+}
+
+.output-container {
+  height: 4em;
+  width: 100%;
+  font-size: 2em;
+  color: rgba(31, 31, 31, 0.56);
+  background-color: rgb(236, 236, 236);
+  border: 0.1em solid rgb(29, 28, 27);
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  padding: .3em;
+}
+
+.number-pad {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  gap: 1em;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.btn {
+  padding: 5px;
+  width: 96%;
+  height: 100%;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.cal-btns {
+  background-color: transparent;
+  border: none;
+  color: white;
+  height: 50px;
+  border-radius: 50%;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 1.3em;
+  width: 50px;
+  bottom: 0;
+  background-color: rgba(59, 59, 59, 0.895);
+  transition: all ease-in-out 0.02s;
+}
+
+.cal-btns:active {
+  outline: 3.8px solid rgba(165, 163, 163, 0.473);
+}
+.gray {
+  background-color: rgb(156, 155, 155);
+  color: black;
+  transition: all ease-in-out 0.02s;
+}
+
+.gray:active {
+  outline: 3.8px solid rgba(165, 163, 163, 0.473);
+}
+.yellow {
+  background-color: rgb(255, 231, 111);
+  color: black;
+  transition: all ease-in-out 0.02s;
+}
+
+.yellow:active {
+  outline: 3.8px solid rgba(165, 163, 163, 0.473);
+}
+
+.flex-grow {
+  flex-grow: 1;
+  width: 6em;
+  border-radius: 5em;
+}

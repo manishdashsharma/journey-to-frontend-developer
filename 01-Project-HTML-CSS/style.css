@@ -1,0 +1,83 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+* {
+    font-family: 'Poppins';
+}
+img {
+    max-width: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: column; 
+    margin: 2% 5% 2% 5% ;
+}
+.navbar-container {
+    display: flex;
+}
+
+.navbar-container > div > img {
+    width: 80%;
+    margin-top: 5%;
+}
+.navbar-container .grow-list {
+    width:40%;
+}
+
+.navbar-container .grow-list .list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: large;
+}
+
+.navbar-container .button-group {
+    margin-left: 30%;
+    margin-top: 1%;
+}
+
+.nav-button {
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    background: #5955b3;
+    padding: 10px 20px 10px;
+    color: white;
+    
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+}
+
+.banner-container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.banner-container .heading-text {
+    inline-size: 350px;
+    overflow-wrap: break-word;
+    font-size: 50px;
+    color: #00336d;
+}
+
+.banner-container .description {
+    inline-size: 300px;
+    overflow-wrap: break-word;
+    font-size: 13px;
+    color: #CAD5E2;
+}
+
+.banner-container .btn {
+    margin: 5%;
+}
+.banner-container > div > img {
+    width: 80%;
+    margin: 2% 22%;
+    padding: 0;
+}
+
+span {
+    color: #5955b3;
+}

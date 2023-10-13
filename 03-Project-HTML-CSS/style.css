@@ -1,0 +1,176 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+
+* {
+    margin : 0;
+    padding: 0;
+    font-family: 'Orbitron';
+}
+
+body{
+    background-color: #FFFFFF;
+    margin: 2% 5%;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-container > div:nth-child(1) {
+    width: 10%;
+}
+
+.navbar-container > div:nth-child(2) {
+    width: 40%;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navbar-container > div:nth-child(3) {
+    width: 20%;
+}
+
+.button-group {
+    display: flex;
+    align-items: center;
+}
+.search-icon > svg {
+    width: 20px;
+}
+.nav-button {
+    margin-left: 15px;
+    padding: 6px 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+.hero-container {
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+}
+
+.square {
+    width: 25%;
+    position: absolute;
+    z-index: -1;
+    left: 8%;
+    top: 40%;
+}
+.star {
+    width: 50px;
+}
+
+.hero-container > *:nth-child(2) {
+    position: absolute;
+    left: 80%;
+    top: 25%;
+}
+.hero-container > *:nth-child(3) {
+    position: absolute;
+    left: 40%;
+    top: 85%;
+}
+
+.globe {
+    width: 50px;
+}
+.hero-container > *:nth-child(4) {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+}
+/* .hero-container:nth-child(5) {
+    
+} */
+.image-hero {
+    width: 65%;
+}
+
+.hero-container-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-heading {
+    font-size: 50px;
+}
+
+.hero-description {
+    font-size: small;
+    padding: 2% 10%;
+    font-family : 'Poppins';
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+.hero-container-right > *:nth-child(3) {
+    position: relative;
+    top: 120px;
+}
+
+.button-email {
+    background-color: #ffffff;
+    color: black;
+    padding:5px 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+.button-join {
+    background-color: black;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.hero-container-right > *:nth-child(4) {
+    position: relative;
+    top: 180px;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-heading {
+    font-family : 'Poppins';
+    font-weight: 300;
+}
+
+.icons {
+    margin-top: 8px;
+}
+
+.icons > *:nth-child(1) > img {
+    width: 18%;
+    margin-left: 3px;
+}
+.icons > *:nth-child(2) > img {
+    width: 18%;
+    margin-left: 3px;
+}
+.icons > *:nth-child(3) > img {
+    width: 18%;
+    margin-left: 3px;
+}
+.icons > *:nth-child(4) > img {
+    width: 18%;
+    margin-left: 3px;
+}
